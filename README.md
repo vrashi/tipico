@@ -12,13 +12,24 @@ pipeline as a SQL workflow using:
 ## Getting started
 - Install docker 
 - pip install -r requirements.txt
-directory hierarchy :
-- tipico > airflow > dags
--                  > config
--              
+- Go to directory /tipico/airflow where docker-compose.yaml is, and contains the project configuration
+- run docker compose up
+- Navigate to http://localhost:8080/ to access the Airflow UI
 
+## Connect to Redshift Database
+- Use any sql client to connect to the database
+- create a redshift connector on airflow if not already present
 
-Run the following target commands to execute the desired SQL workflow operation:
+## Running the pipeline
+- Search for 'tipico_database_dag' and run it to create the staging table
+- Search for 'tipico_dag' to pull the data from api and load it into the staging table on redshift
+
+## Running the models
+- Nagivate out of airflow and into the dbt directory 
+- run command dbt run --models path:models/tipico_models
+- find the newly created tables on redshift database
+
+Handy dbt commands:
 - `dbt compile`
 - `dbt test`
 - `dbt run`
