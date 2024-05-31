@@ -17253,3 +17253,514 @@
 [2024-05-31T22:17:28.235+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:17:28.234+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2024-05-31T22:17:28.245+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:17:28.244+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
 [2024-05-31T22:17:28.268+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.555 seconds
+[2024-05-31T22:17:58.929+0000] {processor.py:161} INFO - Started process (PID=315572) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:17:58.931+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:17:58.933+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:17:58.932+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:17:59.484+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:17:59.502+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:17:59.502+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:17:59.513+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:17:59.513+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:17:59.539+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.616 seconds
+[2024-05-31T22:18:29.645+0000] {processor.py:161} INFO - Started process (PID=315631) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:18:29.647+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:18:29.648+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:18:29.648+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:18:30.215+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:18:30.235+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:18:30.234+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:18:30.245+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:18:30.245+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:18:30.266+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.626 seconds
+[2024-05-31T22:19:00.916+0000] {processor.py:161} INFO - Started process (PID=315690) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:19:00.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:19:00.919+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:19:00.919+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:19:01.562+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:19:01.600+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:19:01.599+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:19:01.614+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:19:01.614+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:19:01.638+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.728 seconds
+[2024-05-31T22:19:32.314+0000] {processor.py:161} INFO - Started process (PID=315749) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:19:32.315+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:19:32.316+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:19:32.315+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:19:32.803+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:19:32.820+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:19:32.820+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:19:32.831+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:19:32.831+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:19:32.856+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.546 seconds
+[2024-05-31T22:20:03.172+0000] {processor.py:161} INFO - Started process (PID=315808) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:20:03.173+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:20:03.174+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:20:03.174+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:20:03.730+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:20:03.749+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:20:03.749+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:20:03.760+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:20:03.760+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:20:03.781+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.613 seconds
+[2024-05-31T22:20:34.633+0000] {processor.py:161} INFO - Started process (PID=315869) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:20:34.635+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:20:34.637+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:20:34.636+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:20:35.197+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:20:35.218+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:20:35.217+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:20:35.232+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:20:35.231+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:20:35.259+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.632 seconds
+[2024-05-31T22:21:06.173+0000] {processor.py:161} INFO - Started process (PID=315930) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:21:06.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:21:06.177+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:21:06.176+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:21:06.777+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:21:06.798+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:21:06.798+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:21:06.813+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:21:06.813+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:21:06.842+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.675 seconds
+[2024-05-31T22:21:37.071+0000] {processor.py:161} INFO - Started process (PID=315992) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:21:37.073+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:21:37.075+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:21:37.074+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:21:37.660+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:21:37.683+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:21:37.682+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:21:37.695+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:21:37.695+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:21:37.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.655 seconds
+[2024-05-31T22:22:08.301+0000] {processor.py:161} INFO - Started process (PID=316051) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:22:08.302+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:22:08.303+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:22:08.303+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:22:08.855+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:22:08.875+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:22:08.875+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:22:08.889+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:22:08.888+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:22:08.917+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.619 seconds
+[2024-05-31T22:22:39.637+0000] {processor.py:161} INFO - Started process (PID=316111) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:22:39.638+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:22:39.640+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:22:39.640+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:22:40.212+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:22:40.238+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:22:40.237+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:22:40.253+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:22:40.253+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:22:40.282+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.648 seconds
+[2024-05-31T22:23:11.131+0000] {processor.py:161} INFO - Started process (PID=316171) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:23:11.132+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:23:11.134+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:23:11.133+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:23:11.739+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:23:11.761+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:23:11.761+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:23:11.774+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:23:11.774+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:23:11.798+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.670 seconds
+[2024-05-31T22:23:42.370+0000] {processor.py:161} INFO - Started process (PID=316230) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:23:42.371+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:23:42.372+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:23:42.372+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:23:42.913+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:23:42.932+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:23:42.931+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:23:42.943+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:23:42.942+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:23:42.964+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.598 seconds
+[2024-05-31T22:24:13.540+0000] {processor.py:161} INFO - Started process (PID=316289) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:24:13.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:24:13.542+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:24:13.542+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:24:14.073+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:24:14.093+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:24:14.092+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:24:14.104+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:24:14.104+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:24:14.128+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.591 seconds
+[2024-05-31T22:24:44.746+0000] {processor.py:161} INFO - Started process (PID=316348) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:24:44.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:24:44.749+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:24:44.749+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:24:45.319+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:24:45.339+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:24:45.339+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:24:45.349+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:24:45.348+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:24:45.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.628 seconds
+[2024-05-31T22:25:16.240+0000] {processor.py:161} INFO - Started process (PID=316407) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:25:16.241+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:25:16.242+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:25:16.242+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:25:16.771+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:25:16.789+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:25:16.788+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:25:16.801+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:25:16.800+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:25:16.828+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.593 seconds
+[2024-05-31T22:25:47.735+0000] {processor.py:161} INFO - Started process (PID=316466) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:25:47.737+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:25:47.739+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:25:47.739+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:25:48.615+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:25:48.645+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:25:48.644+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:25:48.661+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:25:48.661+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:25:48.693+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.963 seconds
+[2024-05-31T22:26:19.217+0000] {processor.py:161} INFO - Started process (PID=316531) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:26:19.219+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:26:19.221+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:26:19.220+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:26:19.874+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:26:19.892+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:26:19.892+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:26:19.902+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:26:19.902+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:26:19.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.714 seconds
+[2024-05-31T22:26:50.521+0000] {processor.py:161} INFO - Started process (PID=316590) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:26:50.522+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:26:50.524+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:26:50.523+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:26:51.059+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:26:51.079+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:26:51.078+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:26:51.090+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:26:51.089+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:26:51.113+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.597 seconds
+[2024-05-31T22:27:21.293+0000] {processor.py:161} INFO - Started process (PID=316649) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:27:21.294+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:27:21.297+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:27:21.296+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:27:22.191+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:27:22.210+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:27:22.210+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:27:22.221+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:27:22.221+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:27:22.243+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.962 seconds
+[2024-05-31T22:27:52.756+0000] {processor.py:161} INFO - Started process (PID=316708) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:27:52.757+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:27:52.758+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:27:52.757+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:27:53.259+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:27:53.274+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:27:53.273+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:27:53.282+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:27:53.282+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:27:53.302+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.551 seconds
+[2024-05-31T22:28:23.520+0000] {processor.py:161} INFO - Started process (PID=316767) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:28:23.521+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:28:23.523+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:28:23.523+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:28:24.057+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:28:24.073+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:28:24.072+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:28:24.084+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:28:24.084+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:28:24.105+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.591 seconds
+[2024-05-31T22:28:55.077+0000] {processor.py:161} INFO - Started process (PID=316826) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:28:55.078+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:28:55.079+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:28:55.078+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:28:55.628+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:28:55.648+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:28:55.648+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:28:55.659+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:28:55.659+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:28:55.684+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.612 seconds
+[2024-05-31T22:29:26.598+0000] {processor.py:161} INFO - Started process (PID=316885) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:29:26.599+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:29:26.600+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:29:26.600+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:29:27.146+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:29:27.163+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:29:27.163+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:29:27.174+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:29:27.173+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:29:27.197+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.603 seconds
+[2024-05-31T22:29:57.865+0000] {processor.py:161} INFO - Started process (PID=316944) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:29:57.866+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:29:57.867+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:29:57.867+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:29:58.517+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:29:58.541+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:29:58.540+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:29:58.555+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:29:58.555+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:29:58.582+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.721 seconds
+[2024-05-31T22:30:28.876+0000] {processor.py:161} INFO - Started process (PID=317003) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:30:28.877+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:30:28.879+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:30:28.878+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:30:29.625+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:30:29.654+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:30:29.653+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:30:29.671+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:30:29.671+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:30:29.703+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.830 seconds
+[2024-05-31T22:31:00.105+0000] {processor.py:161} INFO - Started process (PID=317063) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:31:00.106+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:31:00.108+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:31:00.107+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:31:00.656+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:31:00.674+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:31:00.673+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:31:00.684+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:31:00.683+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:31:00.706+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.606 seconds
+[2024-05-31T22:31:31.280+0000] {processor.py:161} INFO - Started process (PID=317122) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:31:31.281+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:31:31.283+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:31:31.283+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:31:31.831+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:31:31.847+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:31:31.847+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:31:31.857+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:31:31.857+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:31:31.878+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.601 seconds
+[2024-05-31T22:32:02.223+0000] {processor.py:161} INFO - Started process (PID=317180) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:32:02.224+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:32:02.226+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:32:02.226+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:32:02.829+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:32:02.851+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:32:02.851+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:32:02.862+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:32:02.862+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:32:02.885+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.666 seconds
+[2024-05-31T22:32:33.030+0000] {processor.py:161} INFO - Started process (PID=317239) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:32:33.031+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:32:33.033+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:32:33.032+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:32:33.534+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:32:33.554+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:32:33.554+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:32:33.565+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:32:33.565+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:32:33.586+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.559 seconds
+[2024-05-31T22:33:03.741+0000] {processor.py:161} INFO - Started process (PID=317298) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:33:03.742+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:33:03.744+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:33:03.743+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:33:04.382+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:33:04.412+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:33:04.411+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:33:04.428+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:33:04.428+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:33:04.458+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.721 seconds
+[2024-05-31T22:33:34.792+0000] {processor.py:161} INFO - Started process (PID=317357) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:33:34.793+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:33:34.794+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:33:34.794+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:33:35.338+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:33:35.358+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:33:35.358+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:33:35.370+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:33:35.370+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:33:35.393+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.606 seconds
+[2024-05-31T22:34:05.633+0000] {processor.py:161} INFO - Started process (PID=317416) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:34:05.635+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:34:05.636+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:34:05.636+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:34:06.109+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:34:06.124+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:34:06.124+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:34:06.134+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:34:06.134+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:34:06.154+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.524 seconds
+[2024-05-31T22:34:36.420+0000] {processor.py:161} INFO - Started process (PID=317475) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:34:36.421+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:34:36.423+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:34:36.422+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:34:37.031+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:34:37.051+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:34:37.051+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:34:37.064+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:34:37.064+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:34:37.088+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.673 seconds
+[2024-05-31T22:35:07.566+0000] {processor.py:161} INFO - Started process (PID=317534) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:35:07.567+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:35:07.568+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:35:07.568+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:35:08.080+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:35:08.097+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:35:08.096+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:35:08.107+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:35:08.107+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:35:08.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.569 seconds
+[2024-05-31T22:35:38.655+0000] {processor.py:161} INFO - Started process (PID=317593) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:35:38.656+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:35:38.658+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:35:38.657+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:35:39.214+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:35:39.232+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:35:39.232+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:35:39.246+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:35:39.246+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:35:39.271+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.620 seconds
+[2024-05-31T22:36:09.602+0000] {processor.py:161} INFO - Started process (PID=317652) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:36:09.604+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:36:09.605+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:36:09.605+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:36:10.188+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:36:10.206+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:36:10.205+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:36:10.216+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:36:10.216+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:36:10.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.640 seconds
+[2024-05-31T22:36:40.923+0000] {processor.py:161} INFO - Started process (PID=317711) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:36:40.924+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:36:40.925+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:36:40.925+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:36:41.476+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:36:41.494+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:36:41.493+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:36:41.505+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:36:41.505+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:36:41.527+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.608 seconds
+[2024-05-31T22:37:12.109+0000] {processor.py:161} INFO - Started process (PID=317770) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:37:12.110+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:37:12.111+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:37:12.111+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:37:12.667+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:37:12.700+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:37:12.699+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:37:12.717+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:37:12.716+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:37:12.751+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.645 seconds
+[2024-05-31T22:37:42.913+0000] {processor.py:161} INFO - Started process (PID=317829) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:37:42.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:37:42.916+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:37:42.915+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:37:43.475+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:37:43.496+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:37:43.496+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:37:43.507+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:37:43.506+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:37:43.531+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.621 seconds
+[2024-05-31T22:38:13.780+0000] {processor.py:161} INFO - Started process (PID=317888) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:38:13.781+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:38:13.782+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:38:13.782+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:38:14.312+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:38:14.329+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:38:14.329+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:38:14.339+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:38:14.339+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:38:14.360+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.585 seconds
+[2024-05-31T22:38:44.794+0000] {processor.py:161} INFO - Started process (PID=317947) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:38:44.795+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:38:44.797+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:38:44.797+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:38:45.376+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:38:45.398+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:38:45.398+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:38:45.408+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:38:45.408+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:38:45.432+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.642 seconds
+[2024-05-31T22:39:16.068+0000] {processor.py:161} INFO - Started process (PID=318006) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:39:16.070+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:39:16.072+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:39:16.071+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:39:16.617+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:39:16.634+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:39:16.634+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:39:16.645+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:39:16.645+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:39:16.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.604 seconds
+[2024-05-31T22:39:47.250+0000] {processor.py:161} INFO - Started process (PID=318065) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:39:47.252+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:39:47.254+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:39:47.253+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:39:47.785+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:39:47.803+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:39:47.803+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:39:47.813+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:39:47.813+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:39:47.838+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.595 seconds
+[2024-05-31T22:40:18.196+0000] {processor.py:161} INFO - Started process (PID=318124) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:40:18.197+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:40:18.198+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:40:18.198+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:40:18.747+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:40:18.768+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:40:18.767+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:40:18.779+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:40:18.779+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:40:18.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.613 seconds
+[2024-05-31T22:40:49.382+0000] {processor.py:161} INFO - Started process (PID=318189) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:40:49.383+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:40:49.384+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:40:49.384+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:40:49.906+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:40:49.924+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:40:49.923+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:40:49.934+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:40:49.934+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:40:49.956+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.577 seconds
+[2024-05-31T22:41:20.429+0000] {processor.py:161} INFO - Started process (PID=318248) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:41:20.430+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:41:20.432+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:41:20.431+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:41:20.935+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:41:20.954+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:41:20.954+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:41:20.965+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:41:20.965+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:41:20.989+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.565 seconds
+[2024-05-31T22:41:51.405+0000] {processor.py:161} INFO - Started process (PID=318307) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:41:51.406+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:41:51.407+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:41:51.407+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:41:51.910+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:41:51.928+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:41:51.927+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:41:51.939+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:41:51.939+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:41:51.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.561 seconds
+[2024-05-31T22:42:22.557+0000] {processor.py:161} INFO - Started process (PID=318366) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:42:22.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:42:22.560+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:42:22.560+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:42:23.205+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:42:23.224+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:42:23.223+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:42:23.235+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:42:23.234+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:42:23.259+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.705 seconds
+[2024-05-31T22:42:53.787+0000] {processor.py:161} INFO - Started process (PID=318425) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:42:53.789+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:42:53.790+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:42:53.790+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:42:54.380+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:42:54.398+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:42:54.396+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:42:54.408+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:42:54.407+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:42:54.427+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.644 seconds
+[2024-05-31T22:43:24.705+0000] {processor.py:161} INFO - Started process (PID=318484) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:43:24.706+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:43:24.707+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:43:24.707+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:43:25.271+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:43:25.292+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:43:25.291+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:43:25.306+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:43:25.305+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:43:25.337+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.636 seconds
+[2024-05-31T22:43:56.067+0000] {processor.py:161} INFO - Started process (PID=318543) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:43:56.068+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:43:56.070+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:43:56.069+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:43:56.697+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:43:56.715+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:43:56.714+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:43:56.724+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:43:56.724+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:43:56.747+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.683 seconds
+[2024-05-31T22:44:26.934+0000] {processor.py:161} INFO - Started process (PID=318602) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:44:26.935+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:44:26.938+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:44:26.937+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:44:27.745+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:44:27.773+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:44:27.772+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:44:27.790+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:44:27.790+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:44:27.826+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.899 seconds
+[2024-05-31T22:44:57.954+0000] {processor.py:161} INFO - Started process (PID=318661) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:44:57.955+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:44:57.956+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:44:57.956+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:44:58.464+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:44:58.484+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:44:58.483+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:44:58.495+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:44:58.494+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:44:58.517+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.566 seconds
+[2024-05-31T22:45:28.886+0000] {processor.py:161} INFO - Started process (PID=318720) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:45:28.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:45:28.889+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:45:28.888+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:45:29.414+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:45:29.432+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:45:29.432+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:45:29.443+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:45:29.443+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:45:29.467+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.585 seconds
+[2024-05-31T22:45:59.797+0000] {processor.py:161} INFO - Started process (PID=318779) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:45:59.799+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:45:59.800+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:45:59.800+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:46:00.343+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:46:00.363+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:46:00.362+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:46:00.374+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:46:00.374+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:46:00.401+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.608 seconds
+[2024-05-31T22:46:30.500+0000] {processor.py:161} INFO - Started process (PID=318838) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:46:30.502+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:46:30.504+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:46:30.503+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:46:31.036+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:46:31.053+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:46:31.053+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:46:31.064+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:46:31.064+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:46:31.090+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.596 seconds
+[2024-05-31T22:47:01.429+0000] {processor.py:161} INFO - Started process (PID=318897) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:47:01.430+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:47:01.434+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:47:01.433+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:47:02.329+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:47:02.347+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:47:02.346+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:47:02.359+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:47:02.359+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:47:02.377+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.955 seconds
+[2024-05-31T22:47:32.836+0000] {processor.py:161} INFO - Started process (PID=318957) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:47:32.837+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:47:32.840+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:47:32.839+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:47:33.814+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:47:33.845+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:47:33.844+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:47:33.877+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:47:33.876+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:47:33.923+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 1.093 seconds
+[2024-05-31T22:48:04.554+0000] {processor.py:161} INFO - Started process (PID=319015) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:48:04.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:48:04.556+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:48:04.555+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:48:05.306+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:48:05.322+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:48:05.322+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:48:05.332+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:48:05.332+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:48:05.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.804 seconds
+[2024-05-31T22:48:35.795+0000] {processor.py:161} INFO - Started process (PID=319074) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:48:35.797+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:48:35.800+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:48:35.799+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:48:37.246+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:48:37.300+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:48:37.296+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:48:37.336+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:48:37.336+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:48:37.399+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 1.615 seconds
+[2024-05-31T22:49:08.225+0000] {processor.py:161} INFO - Started process (PID=319133) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:49:08.227+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:49:08.228+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:49:08.228+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:49:09.048+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:49:09.070+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:49:09.068+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:49:09.082+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:49:09.082+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:49:09.104+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.884 seconds
+[2024-05-31T22:49:39.730+0000] {processor.py:161} INFO - Started process (PID=319192) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:49:39.731+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:49:39.732+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:49:39.732+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:49:40.254+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:49:40.273+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:49:40.272+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:49:40.283+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:49:40.283+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:49:40.308+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.581 seconds
+[2024-05-31T22:50:11.164+0000] {processor.py:161} INFO - Started process (PID=319251) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:50:11.166+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:50:11.167+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:50:11.167+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:50:11.711+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:50:11.729+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:50:11.728+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:50:11.739+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:50:11.739+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:50:11.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.603 seconds
+[2024-05-31T22:50:41.969+0000] {processor.py:161} INFO - Started process (PID=319310) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:50:41.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:50:41.972+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:50:41.971+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:50:42.480+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:50:42.496+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:50:42.495+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:50:42.504+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:50:42.504+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:50:42.522+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.557 seconds
+[2024-05-31T22:51:12.639+0000] {processor.py:161} INFO - Started process (PID=319369) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:51:12.640+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:51:12.642+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:51:12.641+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:51:13.220+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:51:13.241+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:51:13.240+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:51:13.254+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:51:13.254+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:51:13.278+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.643 seconds
+[2024-05-31T22:51:43.956+0000] {processor.py:161} INFO - Started process (PID=319428) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:51:43.958+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:51:43.959+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:51:43.959+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:51:44.568+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:51:44.585+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:51:44.585+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:51:44.595+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:51:44.595+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:51:44.617+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.665 seconds
+[2024-05-31T22:52:15.376+0000] {processor.py:161} INFO - Started process (PID=319487) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:52:15.377+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:52:15.378+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:52:15.378+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:52:15.878+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:52:15.897+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:52:15.896+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:52:15.907+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:52:15.907+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:52:15.931+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.559 seconds
+[2024-05-31T22:52:46.902+0000] {processor.py:161} INFO - Started process (PID=319546) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:52:46.904+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:52:46.906+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:52:46.906+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:52:47.729+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:52:47.762+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:52:47.762+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:52:47.781+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:52:47.780+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:52:47.815+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.921 seconds
+[2024-05-31T22:53:18.233+0000] {processor.py:161} INFO - Started process (PID=319604) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:53:18.234+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:53:18.236+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:53:18.235+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:53:18.788+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:53:18.821+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:53:18.820+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:53:18.839+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:53:18.839+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:53:18.880+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.652 seconds
+[2024-05-31T22:53:49.621+0000] {processor.py:161} INFO - Started process (PID=319663) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:53:49.622+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:53:49.624+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:53:49.623+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:53:50.071+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:53:50.085+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:53:50.085+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:53:50.090+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:53:50.090+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:53:50.109+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.495 seconds
+[2024-05-31T22:54:20.872+0000] {processor.py:161} INFO - Started process (PID=319728) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:54:20.874+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:54:20.875+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:54:20.875+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:54:21.420+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:54:21.440+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:54:21.439+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:54:21.450+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:54:21.450+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:54:21.473+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.605 seconds
+[2024-05-31T22:54:52.300+0000] {processor.py:161} INFO - Started process (PID=319787) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:54:52.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:54:52.303+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:54:52.302+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:54:53.183+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:54:53.224+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:54:53.222+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:54:53.246+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:54:53.246+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:54:53.286+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.991 seconds
+[2024-05-31T22:55:23.666+0000] {processor.py:161} INFO - Started process (PID=319846) to work on /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:55:23.667+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tipico_database_dag.py for tasks to queue
+[2024-05-31T22:55:23.669+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:55:23.668+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:55:24.293+0000] {processor.py:840} INFO - DAG(s) 'tipico_database_dag' retrieved from /opt/airflow/dags/tipico_database_dag.py
+[2024-05-31T22:55:24.309+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:55:24.309+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-05-31T22:55:24.319+0000] {logging_mixin.py:188} INFO - [2024-05-31T22:55:24.319+0000] {dag.py:3823} INFO - Setting next_dagrun for tipico_database_dag to None, run_after=None
+[2024-05-31T22:55:24.341+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tipico_database_dag.py took 0.680 seconds
