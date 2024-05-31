@@ -7,6 +7,7 @@ import requests
 import csv
 from datetime import datetime
 from tipico_etl import fetch_tipico_data
+from tipico_etl import load_data_to_redshift
 
 
 # Define the default arguments
@@ -29,11 +30,16 @@ dag = DAG(
 )
 
 # Define the task
-run_etl = PythonOperator(
-    task_id='run_tipico_etl',
+fetch_data = PythonOperator(
+    task_id='fetch_tipico_data',
     python_callable=fetch_tipico_data,
+    dag=dag,
+)
+load_data = PythonOperator(
+    task_id='load_data_to_redshift',
+    python_callable=load_data_to_redshift,
     dag=dag,
 )
 
 # Set the task
-run_etl
+fetch_data >> load_data

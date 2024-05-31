@@ -1,0 +1,1 @@
+[2024-05-31T12:30:54.963+0000] {scheduler_job_runner.py:781} ERROR - Executor reports task instance <TaskInstance: tipico_dag.fetch_tipico_data manual__2024-05-31T12:30:52.002714+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

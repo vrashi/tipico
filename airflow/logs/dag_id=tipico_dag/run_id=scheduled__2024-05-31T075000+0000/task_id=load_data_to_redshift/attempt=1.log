@@ -1,0 +1,40 @@
+[2024-05-31T08:00:05.873+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tipico_dag.load_data_to_redshift scheduled__2024-05-31T07:50:00+00:00 [queued]>
+[2024-05-31T08:00:05.888+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tipico_dag.load_data_to_redshift scheduled__2024-05-31T07:50:00+00:00 [queued]>
+[2024-05-31T08:00:05.889+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-05-31T08:00:05.911+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): load_data_to_redshift> on 2024-05-31 07:50:00+00:00
+[2024-05-31T08:00:05.928+0000] {standard_task_runner.py:60} INFO - Started process 29922 to run task
+[2024-05-31T08:00:05.935+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tipico_dag', 'load_data_to_redshift', 'scheduled__2024-05-31T07:50:00+00:00', '--job-id', '317', '--raw', '--subdir', 'DAGS_FOLDER/tipico_dag.py', '--cfg-path', '/tmp/tmpn1i5i4fw']
+[2024-05-31T08:00:05.937+0000] {standard_task_runner.py:88} INFO - Job 317: Subtask load_data_to_redshift
+[2024-05-31T08:00:06.008+0000] {task_command.py:423} INFO - Running <TaskInstance: tipico_dag.load_data_to_redshift scheduled__2024-05-31T07:50:00+00:00 [running]> on host a71bb5ce980f
+[2024-05-31T08:00:06.109+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='tipico_dag' AIRFLOW_CTX_TASK_ID='load_data_to_redshift' AIRFLOW_CTX_EXECUTION_DATE='2024-05-31T07:50:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-31T07:50:00+00:00'
+[2024-05-31T08:00:06.169+0000] {logging_mixin.py:188} INFO -    Unnamed: 0  ...  eventMetadata
+0           0  ...            NaN
+1           1  ...            NaN
+2           2  ...            NaN
+3           3  ...            NaN
+4           4  ...            NaN
+
+[5 rows x 23 columns]
+[2024-05-31T08:00:06.187+0000] {base.py:83} INFO - Using connection ID 'redshift_default' for task execution.
+[2024-05-31T08:00:07.198+0000] {logging_mixin.py:188} INFO - {816775}
+[2024-05-31T08:00:07.868+0000] {logging_mixin.py:188} INFO - {814989}
+[2024-05-31T08:00:08.119+0000] {logging_mixin.py:188} INFO - {814918}
+[2024-05-31T08:00:08.270+0000] {logging_mixin.py:188} INFO - {814870}
+[2024-05-31T08:00:08.500+0000] {logging_mixin.py:188} INFO - {814933}
+[2024-05-31T08:00:08.648+0000] {logging_mixin.py:188} INFO - {814872}
+[2024-05-31T08:00:08.802+0000] {logging_mixin.py:188} INFO - {817801}
+[2024-05-31T08:00:08.972+0000] {logging_mixin.py:188} INFO - {818524}
+[2024-05-31T08:00:09.139+0000] {logging_mixin.py:188} INFO - {818731}
+[2024-05-31T08:00:09.319+0000] {logging_mixin.py:188} INFO - {818813}
+[2024-05-31T08:00:09.499+0000] {logging_mixin.py:188} INFO - {818838}
+[2024-05-31T08:00:09.653+0000] {logging_mixin.py:188} INFO - {818844}
+[2024-05-31T08:00:09.832+0000] {logging_mixin.py:188} INFO - {818806}
+[2024-05-31T08:00:09.993+0000] {logging_mixin.py:188} INFO - {819199}
+[2024-05-31T08:00:10.165+0000] {logging_mixin.py:188} INFO - {818804}
+[2024-05-31T08:00:10.335+0000] {logging_mixin.py:188} INFO - {818842}
+[2024-05-31T08:00:10.515+0000] {logging_mixin.py:188} INFO - {819229}
+[2024-05-31T08:00:10.665+0000] {logging_mixin.py:188} INFO - {818567}
+[2024-05-31T08:00:11.662+0000] {python.py:201} INFO - Done. Returned value was: None
+[2024-05-31T08:00:11.684+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=tipico_dag, task_id=load_data_to_redshift, execution_date=20240531T075000, start_date=20240531T080005, end_date=20240531T080011
+[2024-05-31T08:00:11.732+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-05-31T08:00:11.779+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

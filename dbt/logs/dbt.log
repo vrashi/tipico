@@ -1,0 +1,98 @@
+[0m21:26:50.750171 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002580BB1FB20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002580AEFB2B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002580AEFB220>]}
+
+
+============================== 21:26:50.757036 | da20f85c-5ee2-46ed-b8b7-53b6c9c0501e ==============================
+[0m21:26:50.757036 [info ] [MainThread]: Running with dbt=1.8.1
+[0m21:26:50.757036 [debug] [MainThread]: running dbt with arguments {'use_experimental_parser': 'False', 'version_check': 'True', 'invocation_command': 'dbt init tipico_dbt', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'profiles_dir': 'C:\\Users\\Vrashi\\.dbt', 'cache_selected_only': 'False', 'write_json': 'True', 'introspect': 'True', 'no_print': 'None', 'indirect_selection': 'eager', 'target_path': 'None', 'debug': 'False', 'use_colors': 'True', 'log_cache_events': 'False', 'log_path': 'logs', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'fail_fast': 'False', 'printer_width': '80', 'warn_error': 'None', 'partial_parse': 'True', 'log_format': 'default'}
+[0m21:26:50.796760 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/Vrashi/.dbt')}
+[0m21:26:50.797743 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m21:26:50.803204 [debug] [MainThread]: Starter project path: C:\Users\Vrashi\mambaforge\lib\site-packages\dbt\include\starter_project
+[0m21:26:50.874215 [info ] [MainThread]: 
+Your new dbt project "tipico_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:26:50.880221 [info ] [MainThread]: Setting up your profile.
+[0m21:27:20.366365 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m21:27:20.366365 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m21:31:33.069783 [info ] [MainThread]: Profile tipico_dbt written to C:\Users\Vrashi\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:31:33.075515 [debug] [MainThread]: Command `dbt init` succeeded at 21:31:33.075515 after 282.42 seconds
+[0m21:31:33.075515 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002580BB1FB20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002580AF656F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002580AF83160>]}
+[0m21:31:33.079540 [debug] [MainThread]: Flushing usage events
+[0m21:32:01.269295 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026ECDA7FA60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026ECCE9AE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026ECCE5B280>]}
+
+
+============================== 21:32:01.274316 | 5b66b699-69e0-452c-b9ae-1291d98e8179 ==============================
+[0m21:32:01.274316 [info ] [MainThread]: Running with dbt=1.8.1
+[0m21:32:01.274316 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'fail_fast': 'False', 'log_cache_events': 'False', 'partial_parse': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs', 'static_parser': 'True', 'profiles_dir': 'C:\\Users\\Vrashi\\.dbt', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'write_json': 'True', 'warn_error': 'None', 'indirect_selection': 'eager', 'debug': 'False', 'send_anonymous_usage_stats': 'True', 'log_format': 'default', 'version_check': 'True', 'printer_width': '80', 'target_path': 'None', 'invocation_command': 'dbt debug', 'cache_selected_only': 'False', 'quiet': 'False', 'no_print': 'None'}
+[0m21:32:01.307117 [info ] [MainThread]: dbt version: 1.8.1
+[0m21:32:01.308113 [info ] [MainThread]: python version: 3.10.9
+[0m21:32:01.309112 [info ] [MainThread]: python path: C:\Users\Vrashi\mambaforge\python.exe
+[0m21:32:01.310278 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m21:32:01.490926 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m21:32:01.490926 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m21:32:01.553255 [info ] [MainThread]: Using profiles dir at C:\Users\Vrashi\.dbt
+[0m21:32:01.553255 [info ] [MainThread]: Using profiles.yml file at C:\Users\Vrashi\.dbt\profiles.yml
+[0m21:32:01.553255 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Vrashi\tipico\dbt\dbt_project.yml
+[0m21:32:01.560127 [info ] [MainThread]: adapter type: redshift
+[0m21:32:01.560713 [info ] [MainThread]: adapter version: 1.8.0
+[0m21:32:01.561935 [info ] [MainThread]: Configuration:
+[0m21:32:01.562523 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:32:01.563419 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:32:01.564111 [info ] [MainThread]: Required dependencies:
+[0m21:32:01.565123 [debug] [MainThread]: Executing "git --help"
+[0m21:32:01.607468 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:32:01.610156 [debug] [MainThread]: STDERR: "b''"
+[0m21:32:01.610156 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:32:01.612164 [info ] [MainThread]: Connection:
+[0m21:32:01.613161 [info ] [MainThread]:   host: manual-dwh-candidatetests.258845600139.us-east-1.redshift-serverless.amazonaws.com
+[0m21:32:01.614163 [info ] [MainThread]:   user: vrashi_shrivastava
+[0m21:32:01.614163 [info ] [MainThread]:   port: 5439
+[0m21:32:01.615161 [info ] [MainThread]:   database: dev
+[0m21:32:01.616183 [info ] [MainThread]:   method: database
+[0m21:32:01.617269 [info ] [MainThread]:   cluster_id: None
+[0m21:32:01.618274 [info ] [MainThread]:   iam_profile: None
+[0m21:32:01.618274 [info ] [MainThread]:   schema: vrashi_shrivastava 
+[0m21:32:01.619787 [info ] [MainThread]:   sslmode: prefer
+[0m21:32:01.620796 [info ] [MainThread]:   region: None
+[0m21:32:01.621795 [info ] [MainThread]:   sslmode: prefer
+[0m21:32:01.622350 [info ] [MainThread]:   region: None
+[0m21:32:01.623357 [info ] [MainThread]:   iam_profile: None
+[0m21:32:01.623794 [info ] [MainThread]:   autocreate: False
+[0m21:32:01.623794 [info ] [MainThread]:   db_groups: []
+[0m21:32:01.623794 [info ] [MainThread]:   ra3_node: False
+[0m21:32:01.627874 [info ] [MainThread]:   connect_timeout: None
+[0m21:32:01.627874 [info ] [MainThread]:   role: None
+[0m21:32:01.629403 [info ] [MainThread]:   retries: 1
+[0m21:32:01.629403 [info ] [MainThread]:   autocommit: True
+[0m21:32:01.632436 [info ] [MainThread]: Registered adapter: redshift=1.8.0
+[0m21:32:01.633668 [debug] [MainThread]: Acquiring new redshift connection 'debug'
+[0m21:32:01.641192 [debug] [MainThread]: Using redshift connection "debug"
+[0m21:32:01.641741 [debug] [MainThread]: On debug: select 1 as id
+[0m21:32:01.642983 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:32:01.649538 [debug] [MainThread]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m21:32:01.652836 [debug] [MainThread]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m21:32:02.652698 [debug] [MainThread]: SQL status: SUCCESS in 1.0 seconds
+[0m21:32:02.659823 [debug] [MainThread]: On debug: Close
+[0m21:32:02.659823 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m21:32:02.659823 [info ] [MainThread]: [31m1 check failed:[0m
+[0m21:32:02.659823 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Vrashi\tipico\dbt\dbt_project.yml> not found
+
+[0m21:32:02.664920 [debug] [MainThread]: Command `dbt debug` failed at 21:32:02.664920 after 1.49 seconds
+[0m21:32:02.664920 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m21:32:02.664920 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026ECDA7FA60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026ED0B3B7F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026ED0B3B8B0>]}
+[0m21:32:02.664920 [debug] [MainThread]: Flushing usage events

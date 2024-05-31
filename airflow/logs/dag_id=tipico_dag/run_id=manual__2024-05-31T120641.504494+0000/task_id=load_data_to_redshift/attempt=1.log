@@ -1,0 +1,40 @@
+[2024-05-31T12:06:45.306+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tipico_dag.load_data_to_redshift manual__2024-05-31T12:06:41.504494+00:00 [queued]>
+[2024-05-31T12:06:45.317+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tipico_dag.load_data_to_redshift manual__2024-05-31T12:06:41.504494+00:00 [queued]>
+[2024-05-31T12:06:45.318+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-05-31T12:06:45.334+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): load_data_to_redshift> on 2024-05-31 12:06:41.504494+00:00
+[2024-05-31T12:06:45.342+0000] {standard_task_runner.py:60} INFO - Started process 33873 to run task
+[2024-05-31T12:06:45.345+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tipico_dag', 'load_data_to_redshift', 'manual__2024-05-31T12:06:41.504494+00:00', '--job-id', '421', '--raw', '--subdir', 'DAGS_FOLDER/tipico_dag.py', '--cfg-path', '/tmp/tmphwvx3s5d']
+[2024-05-31T12:06:45.347+0000] {standard_task_runner.py:88} INFO - Job 421: Subtask load_data_to_redshift
+[2024-05-31T12:06:45.398+0000] {task_command.py:423} INFO - Running <TaskInstance: tipico_dag.load_data_to_redshift manual__2024-05-31T12:06:41.504494+00:00 [running]> on host a71bb5ce980f
+[2024-05-31T12:06:45.482+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='tipico_dag' AIRFLOW_CTX_TASK_ID='load_data_to_redshift' AIRFLOW_CTX_EXECUTION_DATE='2024-05-31T12:06:41.504494+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-31T12:06:41.504494+00:00'
+[2024-05-31T12:06:45.526+0000] {logging_mixin.py:188} INFO -    Unnamed: 0  ...  eventMetadata
+0           0  ...            NaN
+1           1  ...            NaN
+
+[2 rows x 22 columns]
+[2024-05-31T12:06:45.539+0000] {logging_mixin.py:188} INFO - 2
+[2024-05-31T12:06:45.541+0000] {logging_mixin.py:188} INFO - {'id': 71233, 'name': 'Kato M / Kichenok N', 'position': 'HOME', 'abbreviation': 'KKI'} ---------------- 0
+[2024-05-31T12:06:45.542+0000] {logging_mixin.py:188} INFO - {'id': 39274, 'name': 'Saville D / Tomljanovic A', 'position': 'AWAY', 'abbreviation': 'STO'} ---------------- 0
+[2024-05-31T12:06:45.543+0000] {logging_mixin.py:188} INFO - 2
+[2024-05-31T12:06:45.544+0000] {logging_mixin.py:188} INFO - {'id': 86144, 'name': 'Jacquemot E / Tan H', 'position': 'HOME', 'abbreviation': 'JTA'} ---------------- 1
+[2024-05-31T12:06:45.545+0000] {logging_mixin.py:188} INFO - {'id': 30924, 'name': 'Mihalikova T / Noskova L', 'position': 'AWAY', 'abbreviation': 'MNO'} ---------------- 1
+[2024-05-31T12:06:45.575+0000] {logging_mixin.py:188} INFO - {"subgroupNameKey": "French Open Women Doubles, Round_of_64", "best_of_sets": "3", "block_cashout": "false", "activeParticipant": "HOME", "subgroupIdKey": "141672"}
+[2024-05-31T12:06:45.576+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/tipico_etl.py", line 140, in load_data_to_redshift
+    df = get_eventDetails(df, 'eventDetails')
+  File "/opt/airflow/dags/tipico_etl.py", line 54, in get_eventDetails
+    nested_dict_flat = flatten_dict(ed_dict)
+  File "/opt/airflow/dags/tipico_etl.py", line 40, in flatten_dict
+    for k, v in d.items():
+AttributeError: 'str' object has no attribute 'items'
+[2024-05-31T12:06:45.592+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=tipico_dag, task_id=load_data_to_redshift, execution_date=20240531T120641, start_date=20240531T120645, end_date=20240531T120645
+[2024-05-31T12:06:45.609+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 421 for task load_data_to_redshift ('str' object has no attribute 'items'; 33873)
+[2024-05-31T12:06:45.640+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-05-31T12:06:45.674+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

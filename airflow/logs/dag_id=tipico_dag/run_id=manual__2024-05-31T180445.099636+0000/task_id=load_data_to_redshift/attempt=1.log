@@ -1,0 +1,201 @@
+[2024-05-31T18:04:49.842+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tipico_dag.load_data_to_redshift manual__2024-05-31T18:04:45.099636+00:00 [queued]>
+[2024-05-31T18:04:49.853+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tipico_dag.load_data_to_redshift manual__2024-05-31T18:04:45.099636+00:00 [queued]>
+[2024-05-31T18:04:49.854+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-05-31T18:04:49.875+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): load_data_to_redshift> on 2024-05-31 18:04:45.099636+00:00
+[2024-05-31T18:04:49.885+0000] {standard_task_runner.py:60} INFO - Started process 38817 to run task
+[2024-05-31T18:04:49.888+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tipico_dag', 'load_data_to_redshift', 'manual__2024-05-31T18:04:45.099636+00:00', '--job-id', '588', '--raw', '--subdir', 'DAGS_FOLDER/tipico_dag.py', '--cfg-path', '/tmp/tmpc8xpc4uo']
+[2024-05-31T18:04:49.890+0000] {standard_task_runner.py:88} INFO - Job 588: Subtask load_data_to_redshift
+[2024-05-31T18:04:49.953+0000] {task_command.py:423} INFO - Running <TaskInstance: tipico_dag.load_data_to_redshift manual__2024-05-31T18:04:45.099636+00:00 [running]> on host a71bb5ce980f
+[2024-05-31T18:04:50.050+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='tipico_dag' AIRFLOW_CTX_TASK_ID='load_data_to_redshift' AIRFLOW_CTX_EXECUTION_DATE='2024-05-31T18:04:45.099636+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-31T18:04:45.099636+00:00'
+[2024-05-31T18:04:50.110+0000] {logging_mixin.py:188} INFO -    Unnamed: 0  ...  aggregatedEventPoints
+0           0  ...                    NaN
+1           1  ...                    NaN
+2           2  ...                    NaN
+3           3  ...                    NaN
+4           4  ...                    NaN
+
+[5 rows x 23 columns]
+[2024-05-31T18:04:50.146+0000] {logging_mixin.py:188} INFO - 157
+[2024-05-31T18:04:50.147+0000] {logging_mixin.py:188} INFO - {'id': 7609, 'name': 'Law, David', 'position': 'OTHER', 'abbreviation': 'LAW'} ---------------- 0
+[2024-05-31T18:04:50.148+0000] {logging_mixin.py:188} INFO - {'id': 8131, 'name': 'Crocker, Sean', 'position': 'OTHER', 'abbreviation': 'CRO'} ---------------- 0
+[2024-05-31T18:04:50.149+0000] {logging_mixin.py:188} INFO - {'id': 86592, 'name': 'Wilson, Andrew', 'position': 'OTHER', 'abbreviation': 'WIL'} ---------------- 0
+[2024-05-31T18:04:50.151+0000] {logging_mixin.py:188} INFO - {'id': 8099, 'name': 'Zanotti, Fabrizio', 'position': 'OTHER', 'abbreviation': 'ZAN'} ---------------- 0
+[2024-05-31T18:04:50.152+0000] {logging_mixin.py:188} INFO - {'id': 86553, 'name': 'Cantero Gutierrez, Ivan', 'position': 'OTHER', 'abbreviation': 'CAN'} ---------------- 0
+[2024-05-31T18:04:50.153+0000] {logging_mixin.py:188} INFO - {'id': 8033, 'name': 'Chen, Guxin', 'position': 'OTHER', 'abbreviation': 'CHE'} ---------------- 0
+[2024-05-31T18:04:50.154+0000] {logging_mixin.py:188} INFO - {'id': 86747, 'name': 'Ferguson, Ewen', 'position': 'OTHER', 'abbreviation': 'FER'} ---------------- 0
+[2024-05-31T18:04:50.156+0000] {logging_mixin.py:188} INFO - {'id': 8080, 'name': 'Colsaerts, Nicolas', 'position': 'OTHER', 'abbreviation': 'COL'} ---------------- 0
+[2024-05-31T18:04:50.157+0000] {logging_mixin.py:188} INFO - {'id': 86546, 'name': 'Porteous, Garrick', 'position': 'OTHER', 'abbreviation': 'POR'} ---------------- 0
+[2024-05-31T18:04:50.158+0000] {logging_mixin.py:188} INFO - {'id': 86539, 'name': 'Dantorp, Jens', 'position': 'OTHER', 'abbreviation': 'DAN'} ---------------- 0
+[2024-05-31T18:04:50.159+0000] {logging_mixin.py:188} INFO - {'id': 75131, 'name': 'Goth-Rasmussen, Jonathan', 'position': 'OTHER', 'abbreviation': 'GOT'} ---------------- 0
+[2024-05-31T18:04:50.161+0000] {logging_mixin.py:188} INFO - {'id': 86548, 'name': 'Rusch, Benjamin', 'position': 'OTHER', 'abbreviation': 'RUS'} ---------------- 0
+[2024-05-31T18:04:50.162+0000] {logging_mixin.py:188} INFO - {'id': 86542, 'name': 'Baldwin, Matthew', 'position': 'OTHER', 'abbreviation': 'BAL'} ---------------- 0
+[2024-05-31T18:04:50.163+0000] {logging_mixin.py:188} INFO - {'id': 86544, 'name': 'Enoch, Rhys', 'position': 'OTHER', 'abbreviation': 'ENO'} ---------------- 0
+[2024-05-31T18:04:50.165+0000] {logging_mixin.py:188} INFO - {'id': 86600, 'name': 'Elvira, Manuel', 'position': 'OTHER', 'abbreviation': 'ELV'} ---------------- 0
+[2024-05-31T18:04:50.166+0000] {logging_mixin.py:188} INFO - {'id': 8126, 'name': 'Paratore, Renato', 'position': 'OTHER', 'abbreviation': 'PAR'} ---------------- 0
+[2024-05-31T18:04:50.167+0000] {logging_mixin.py:188} INFO - {'id': 8134, 'name': 'Smith, Jordan', 'position': 'OTHER', 'abbreviation': 'SMI'} ---------------- 0
+[2024-05-31T18:04:50.169+0000] {logging_mixin.py:188} INFO - {'id': 86555, 'name': 'Girrbach, Joel', 'position': 'OTHER', 'abbreviation': 'GIR'} ---------------- 0
+[2024-05-31T18:04:50.170+0000] {logging_mixin.py:188} INFO - {'id': 86554, 'name': 'Forsstrom, Simon', 'position': 'OTHER', 'abbreviation': 'FOR'} ---------------- 0
+[2024-05-31T18:04:50.171+0000] {logging_mixin.py:188} INFO - {'id': 86569, 'name': 'Von Dellingshausen, Nicolai', 'position': 'OTHER', 'abbreviation': 'VON'} ---------------- 0
+[2024-05-31T18:04:50.172+0000] {logging_mixin.py:188} INFO - {'id': 8112, 'name': 'Otaegui, Adrian', 'position': 'OTHER', 'abbreviation': 'OTA'} ---------------- 0
+[2024-05-31T18:04:50.173+0000] {logging_mixin.py:188} INFO - {'id': 86613, 'name': 'Neergaard-Petersen, Rasmus', 'position': 'OTHER', 'abbreviation': 'NEE'} ---------------- 0
+[2024-05-31T18:04:50.175+0000] {logging_mixin.py:188} INFO - {'id': 86573, 'name': 'Hanna, Chase', 'position': 'OTHER', 'abbreviation': 'HAN'} ---------------- 0
+[2024-05-31T18:04:50.176+0000] {logging_mixin.py:188} INFO - {'id': 86744, 'name': 'Long, Hurly', 'position': 'OTHER', 'abbreviation': 'LON'} ---------------- 0
+[2024-05-31T18:04:50.177+0000] {logging_mixin.py:188} INFO - {'id': 3594, 'name': 'Johnston, Andrew', 'position': 'OTHER', 'abbreviation': 'JOH'} ---------------- 0
+[2024-05-31T18:04:50.179+0000] {logging_mixin.py:188} INFO - {'id': 86577, 'name': 'Clements, Todd', 'position': 'OTHER', 'abbreviation': 'CLE'} ---------------- 0
+[2024-05-31T18:04:50.180+0000] {logging_mixin.py:188} INFO - {'id': 86560, 'name': 'Scalise, Lorenzo', 'position': 'OTHER', 'abbreviation': 'SCA'} ---------------- 0
+[2024-05-31T18:04:50.181+0000] {logging_mixin.py:188} INFO - {'id': 86612, 'name': 'Jones, Sam', 'position': 'OTHER', 'abbreviation': 'JON'} ---------------- 0
+[2024-05-31T18:04:50.183+0000] {logging_mixin.py:188} INFO - {'id': 8103, 'name': 'Jamieson, Scott', 'position': 'OTHER', 'abbreviation': 'JAM'} ---------------- 0
+[2024-05-31T18:04:50.184+0000] {logging_mixin.py:188} INFO - {'id': 8106, 'name': 'Kawamura, Masahiro', 'position': 'OTHER', 'abbreviation': 'KAW'} ---------------- 0
+[2024-05-31T18:04:50.185+0000] {logging_mixin.py:188} INFO - {'id': 86550, 'name': 'Gouveia, Ricardo', 'position': 'OTHER', 'abbreviation': 'GOU'} ---------------- 0
+[2024-05-31T18:04:50.187+0000] {logging_mixin.py:188} INFO - {'id': 86584, 'name': 'Moolman, Pieter', 'position': 'OTHER', 'abbreviation': 'MOO'} ---------------- 0
+[2024-05-31T18:04:50.188+0000] {logging_mixin.py:188} INFO - {'id': 8127, 'name': 'Lombard, Zander', 'position': 'OTHER', 'abbreviation': 'LOM'} ---------------- 0
+[2024-05-31T18:04:50.190+0000] {logging_mixin.py:188} INFO - {'id': 86601, 'name': 'Celli, Filippo', 'position': 'OTHER', 'abbreviation': 'CEL'} ---------------- 0
+[2024-05-31T18:04:50.191+0000] {logging_mixin.py:188} INFO - {'id': 86562, 'name': 'Kruyswijk, Jacques', 'position': 'OTHER', 'abbreviation': 'KRU'} ---------------- 0
+[2024-05-31T18:04:50.192+0000] {logging_mixin.py:188} INFO - {'id': 3310, 'name': 'Cabrera Bello, Rafael', 'position': 'OTHER', 'abbreviation': 'CAB'} ---------------- 0
+[2024-05-31T18:04:50.194+0000] {logging_mixin.py:188} INFO - {'id': 7595, 'name': 'Kjeldsen, Soren', 'position': 'OTHER', 'abbreviation': 'KJE'} ---------------- 0
+[2024-05-31T18:04:50.195+0000] {logging_mixin.py:188} INFO - {'id': 8008, 'name': 'Micheluzzi, David', 'position': 'OTHER', 'abbreviation': 'MIC'} ---------------- 0
+[2024-05-31T18:04:50.196+0000] {logging_mixin.py:188} INFO - {'id': 86582, 'name': 'Hidalgo, Angel', 'position': 'OTHER', 'abbreviation': 'HID'} ---------------- 0
+[2024-05-31T18:04:50.197+0000] {logging_mixin.py:188} INFO - {'id': 86531, 'name': 'Siem, Marcel', 'position': 'OTHER', 'abbreviation': 'SIE'} ---------------- 0
+[2024-05-31T18:04:50.199+0000] {logging_mixin.py:188} INFO - {'id': 7596, 'name': 'Molinari, Edoardo', 'position': 'OTHER', 'abbreviation': 'MOL'} ---------------- 0
+[2024-05-31T18:04:50.200+0000] {logging_mixin.py:188} INFO - {'id': 7599, 'name': 'Guerrier, Julien', 'position': 'OTHER', 'abbreviation': 'GUE'} ---------------- 0
+[2024-05-31T18:04:50.201+0000] {logging_mixin.py:188} INFO - {'id': 86619, 'name': 'Kennedy, Frank', 'position': 'OTHER', 'abbreviation': 'KEN'} ---------------- 0
+[2024-05-31T18:04:50.203+0000] {logging_mixin.py:188} INFO - {'id': 86623, 'name': 'Tillmanns, Tim', 'position': 'OTHER', 'abbreviation': 'TIL'} ---------------- 0
+[2024-05-31T18:04:50.204+0000] {logging_mixin.py:188} INFO - {'id': 86615, 'name': 'Schott, Freddy', 'position': 'OTHER', 'abbreviation': 'SCH'} ---------------- 0
+[2024-05-31T18:04:50.205+0000] {logging_mixin.py:188} INFO - {'id': 86580, 'name': 'Rugumayo, Ronald', 'position': 'OTHER', 'abbreviation': 'RUG'} ---------------- 0
+[2024-05-31T18:04:50.206+0000] {logging_mixin.py:188} INFO - {'id': 8260, 'name': 'Syme, Connor', 'position': 'OTHER', 'abbreviation': 'SYM'} ---------------- 0
+[2024-05-31T18:04:50.208+0000] {logging_mixin.py:188} INFO - {'id': 86564, 'name': 'Veerman, Johannes', 'position': 'OTHER', 'abbreviation': 'VEE'} ---------------- 0
+[2024-05-31T18:04:50.209+0000] {logging_mixin.py:188} INFO - {'id': 86556, 'name': 'Mruzek, Filip', 'position': 'OTHER', 'abbreviation': 'MRU'} ---------------- 0
+[2024-05-31T18:04:50.210+0000] {logging_mixin.py:188} INFO - {'id': 3598, 'name': 'Langasque, Romain', 'position': 'OTHER', 'abbreviation': 'LAN'} ---------------- 0
+[2024-05-31T18:04:50.211+0000] {logging_mixin.py:188} INFO - {'id': 7604, 'name': 'Wu, Ashun', 'position': 'OTHER', 'abbreviation': 'ASH'} ---------------- 0
+[2024-05-31T18:04:50.212+0000] {logging_mixin.py:188} INFO - {'id': 8082, 'name': 'Donaldson, Jamie', 'position': 'OTHER', 'abbreviation': 'DON'} ---------------- 0
+[2024-05-31T18:04:50.214+0000] {logging_mixin.py:188} INFO - {'id': 8133, 'name': 'Shinkwin, Callum', 'position': 'OTHER', 'abbreviation': 'SHI'} ---------------- 0
+[2024-05-31T18:04:50.215+0000] {logging_mixin.py:188} INFO - {'id': 8140, 'name': 'Arnaus, Adri', 'position': 'OTHER', 'abbreviation': 'ARN'} ---------------- 0
+[2024-05-31T18:04:50.216+0000] {logging_mixin.py:188} INFO - {'id': 8137, 'name': 'Rozner, Antoine', 'position': 'OTHER', 'abbreviation': 'ROZ'} ---------------- 0
+[2024-05-31T18:04:50.217+0000] {logging_mixin.py:188} INFO - {'id': 86578, 'name': 'Ahlawat, Veer', 'position': 'OTHER', 'abbreviation': 'AHL'} ---------------- 0
+[2024-05-31T18:04:50.219+0000] {logging_mixin.py:188} INFO - {'id': 3374, 'name': 'Hojgaard, Rasmus', 'position': 'OTHER', 'abbreviation': 'HOJ'} ---------------- 0
+[2024-05-31T18:04:50.220+0000] {logging_mixin.py:188} INFO - {'id': 8102, 'name': 'Scrivener, Jason', 'position': 'OTHER', 'abbreviation': 'SCR'} ---------------- 0
+[2024-05-31T18:04:50.221+0000] {logging_mixin.py:188} INFO - {'id': 3346, 'name': 'Schwab, Matthias', 'position': 'OTHER', 'abbreviation': 'SCH'} ---------------- 0
+[2024-05-31T18:04:50.223+0000] {logging_mixin.py:188} INFO - {'id': 3605, 'name': 'Galletti, Nicolo', 'position': 'OTHER', 'abbreviation': 'GAL'} ---------------- 0
+[2024-05-31T18:04:50.224+0000] {logging_mixin.py:188} INFO - {'id': 8119, 'name': 'Broberg, Kristoffer', 'position': 'OTHER', 'abbreviation': 'BRO'} ---------------- 0
+[2024-05-31T18:04:50.225+0000] {logging_mixin.py:188} INFO - {'id': 86574, 'name': 'Gumberg, Jordan', 'position': 'OTHER', 'abbreviation': 'GUM'} ---------------- 0
+[2024-05-31T18:04:50.226+0000] {logging_mixin.py:188} INFO - {'id': 86536, 'name': 'Nemecz, Lukas', 'position': 'OTHER', 'abbreviation': 'NEM'} ---------------- 0
+[2024-05-31T18:04:50.228+0000] {logging_mixin.py:188} INFO - {'id': 86571, 'name': 'Ruuska, Lauri', 'position': 'OTHER', 'abbreviation': 'RUU'} ---------------- 0
+[2024-05-31T18:04:50.229+0000] {logging_mixin.py:188} INFO - {'id': 86572, 'name': 'Dean, Joe', 'position': 'OTHER', 'abbreviation': 'DEA'} ---------------- 0
+[2024-05-31T18:04:50.230+0000] {logging_mixin.py:188} INFO - {'id': 86611, 'name': 'Jarvis, Casey', 'position': 'OTHER', 'abbreviation': 'JAR'} ---------------- 0
+[2024-05-31T18:04:50.231+0000] {logging_mixin.py:188} INFO - {'id': 8264, 'name': 'Schaper, Jayden Trey', 'position': 'OTHER', 'abbreviation': 'SCH'} ---------------- 0
+[2024-05-31T18:04:50.232+0000] {logging_mixin.py:188} INFO - {'id': 86557, 'name': 'Garcia Rodriguez, Sebastian', 'position': 'OTHER', 'abbreviation': 'GAR'} ---------------- 0
+[2024-05-31T18:04:50.234+0000] {logging_mixin.py:188} INFO - {'id': 3588, 'name': 'Aphinbarnrat, Kiradech', 'position': 'OTHER', 'abbreviation': 'APH'} ---------------- 0
+[2024-05-31T18:04:50.235+0000] {logging_mixin.py:188} INFO - {'id': 86603, 'name': 'Helligkilde, Marcus', 'position': 'OTHER', 'abbreviation': 'HEL'} ---------------- 0
+[2024-05-31T18:04:50.237+0000] {logging_mixin.py:188} INFO - {'id': 86559, 'name': 'Sordet, Clement', 'position': 'OTHER', 'abbreviation': 'SOR'} ---------------- 0
+[2024-05-31T18:04:50.238+0000] {logging_mixin.py:188} INFO - {'id': 86597, 'name': 'Mansell, Richard', 'position': 'OTHER', 'abbreviation': 'MAN'} ---------------- 0
+[2024-05-31T18:04:50.239+0000] {logging_mixin.py:188} INFO - {'id': 86583, 'name': 'Tarrio, Santiago', 'position': 'OTHER', 'abbreviation': 'TAR'} ---------------- 0
+[2024-05-31T18:04:50.241+0000] {logging_mixin.py:188} INFO - {'id': 8132, 'name': 'Migliozzi, Guido', 'position': 'OTHER', 'abbreviation': 'MIG'} ---------------- 0
+[2024-05-31T18:04:50.244+0000] {logging_mixin.py:188} INFO - {'id': 86624, 'name': 'Siemens, Carl', 'position': 'OTHER', 'abbreviation': 'SIE'} ---------------- 0
+[2024-05-31T18:04:50.245+0000] {logging_mixin.py:188} INFO - {'id': 86746, 'name': 'Bachem, Nick', 'position': 'OTHER', 'abbreviation': 'BAC'} ---------------- 0
+[2024-05-31T18:04:50.247+0000] {logging_mixin.py:188} INFO - {'id': 7610, 'name': 'Forrest, Grant', 'position': 'OTHER', 'abbreviation': 'FOR'} ---------------- 0
+[2024-05-31T18:04:50.248+0000] {logging_mixin.py:188} INFO - {'id': 86626, 'name': 'Weber, Jordan', 'position': 'OTHER', 'abbreviation': 'WEB'} ---------------- 0
+[2024-05-31T18:04:50.250+0000] {logging_mixin.py:188} INFO - {'id': 86610, 'name': 'Nicholas, James', 'position': 'OTHER', 'abbreviation': 'NIC'} ---------------- 0
+[2024-05-31T18:04:50.251+0000] {logging_mixin.py:188} INFO - {'id': 86618, 'name': 'Bairstow, Sam', 'position': 'OTHER', 'abbreviation': 'BAI'} ---------------- 0
+[2024-05-31T18:04:50.252+0000] {logging_mixin.py:188} INFO - {'id': 86625, 'name': 'Broholt Lind, Soren', 'position': 'OTHER', 'abbreviation': 'BRO'} ---------------- 0
+[2024-05-31T18:04:50.254+0000] {logging_mixin.py:188} INFO - {'id': 86537, 'name': 'Whitnell, Dale', 'position': 'OTHER', 'abbreviation': 'WHI'} ---------------- 0
+[2024-05-31T18:04:50.256+0000] {logging_mixin.py:188} INFO - {'id': 86599, 'name': 'Barron, Haydn', 'position': 'OTHER', 'abbreviation': 'BAR'} ---------------- 0
+[2024-05-31T18:04:50.257+0000] {logging_mixin.py:188} INFO - {'id': 86622, 'name': 'Albers, Anton', 'position': 'OTHER', 'abbreviation': 'ALB'} ---------------- 0
+[2024-05-31T18:04:50.258+0000] {logging_mixin.py:188} INFO - {'id': 86570, 'name': 'Moeller, Niklas Noergaard', 'position': 'OTHER', 'abbreviation': 'MOE'} ---------------- 0
+[2024-05-31T18:04:50.260+0000] {logging_mixin.py:188} INFO - {'id': 3348, 'name': 'Lewis, Tom', 'position': 'OTHER', 'abbreviation': 'LEW'} ---------------- 0
+[2024-05-31T18:04:50.261+0000] {logging_mixin.py:188} INFO - {'id': 86549, 'name': 'Lawrence, Thriston', 'position': 'OTHER', 'abbreviation': 'LAW'} ---------------- 0
+[2024-05-31T18:04:50.263+0000] {logging_mixin.py:188} INFO - {'id': 86545, 'name': 'Saddier, Adrien', 'position': 'OTHER', 'abbreviation': 'SAD'} ---------------- 0
+[2024-05-31T18:04:50.264+0000] {logging_mixin.py:188} INFO - {'id': 86561, 'name': 'Rottluff, Maximilian', 'position': 'OTHER', 'abbreviation': 'ROT'} ---------------- 0
+[2024-05-31T18:04:50.266+0000] {logging_mixin.py:188} INFO - {'id': 86575, 'name': 'Davidson, Jack', 'position': 'OTHER', 'abbreviation': 'DAV'} ---------------- 0
+[2024-05-31T18:04:50.267+0000] {logging_mixin.py:188} INFO - {'id': 86596, 'name': 'Enefer, William', 'position': 'OTHER', 'abbreviation': 'ENE'} ---------------- 0
+[2024-05-31T18:04:50.269+0000] {logging_mixin.py:188} INFO - {'id': 86607, 'name': 'Christensen, Tiger', 'position': 'OTHER', 'abbreviation': 'CHR'} ---------------- 0
+[2024-05-31T18:04:50.270+0000] {logging_mixin.py:188} INFO - {'id': 86602, 'name': 'Ko, Jeong Weon', 'position': 'OTHER', 'abbreviation': 'JEO'} ---------------- 0
+[2024-05-31T18:04:50.271+0000] {logging_mixin.py:188} INFO - {'id': 3597, 'name': 'Southgate, Matthew', 'position': 'OTHER', 'abbreviation': 'SOU'} ---------------- 0
+[2024-05-31T18:04:50.273+0000] {logging_mixin.py:188} INFO - {'id': 3427, 'name': 'Li, Haotong', 'position': 'OTHER', 'abbreviation': 'LIH'} ---------------- 0
+[2024-05-31T18:04:50.274+0000] {logging_mixin.py:188} INFO - {'id': 8130, 'name': 'Elvira, Nacho', 'position': 'OTHER', 'abbreviation': 'ELV'} ---------------- 0
+[2024-05-31T18:04:50.275+0000] {logging_mixin.py:188} INFO - {'id': 86533, 'name': 'Manley, Stuart', 'position': 'OTHER', 'abbreviation': 'MAN'} ---------------- 0
+[2024-05-31T18:04:50.277+0000] {logging_mixin.py:188} INFO - {'id': 8138, 'name': 'Hill, Callum', 'position': 'OTHER', 'abbreviation': 'HIL'} ---------------- 0
+[2024-05-31T18:04:50.278+0000] {logging_mixin.py:188} INFO - {'id': 86541, 'name': 'Blixt, Jonas', 'position': 'OTHER', 'abbreviation': 'BLI'} ---------------- 0
+[2024-05-31T18:04:50.279+0000] {logging_mixin.py:188} INFO - {'id': 8101, 'name': 'Kieffer, Maximilian', 'position': 'OTHER', 'abbreviation': 'KIE'} ---------------- 0
+[2024-05-31T18:04:50.280+0000] {logging_mixin.py:188} INFO - {'id': 86745, 'name': 'Fitzpatrick, Alex', 'position': 'OTHER', 'abbreviation': 'FIT'} ---------------- 0
+[2024-05-31T18:04:50.282+0000] {logging_mixin.py:188} INFO - {'id': 8124, 'name': 'Winther, Jeff', 'position': 'OTHER', 'abbreviation': 'WIN'} ---------------- 0
+[2024-05-31T18:04:50.283+0000] {logging_mixin.py:188} INFO - {'id': 3584, 'name': 'Pavan, Andrea', 'position': 'OTHER', 'abbreviation': 'PAV'} ---------------- 0
+[2024-05-31T18:04:50.284+0000] {logging_mixin.py:188} INFO - {'id': 86532, 'name': 'Fichardt, Darren', 'position': 'OTHER', 'abbreviation': 'FIC'} ---------------- 0
+[2024-05-31T18:04:50.286+0000] {logging_mixin.py:188} INFO - {'id': 86595, 'name': 'Nakajima, Keita', 'position': 'OTHER', 'abbreviation': 'NAK'} ---------------- 0
+[2024-05-31T18:04:50.287+0000] {logging_mixin.py:188} INFO - {'id': 86552, 'name': 'Schneider, Marcel', 'position': 'OTHER', 'abbreviation': 'SCH'} ---------------- 0
+[2024-05-31T18:04:50.288+0000] {logging_mixin.py:188} INFO - {'id': 86598, 'name': 'Penge, Marco', 'position': 'OTHER', 'abbreviation': 'PEN'} ---------------- 0
+[2024-05-31T18:04:50.290+0000] {logging_mixin.py:188} INFO - {'id': 8094, 'name': 'Korhonen, Mikko', 'position': 'OTHER', 'abbreviation': 'KOR'} ---------------- 0
+[2024-05-31T18:04:50.291+0000] {logging_mixin.py:188} INFO - {'id': 86620, 'name': 'Vaillant, Tom', 'position': 'OTHER', 'abbreviation': 'VAI'} ---------------- 0
+[2024-05-31T18:04:50.293+0000] {logging_mixin.py:188} INFO - {'id': 86606, 'name': 'Bradbury, Daniel', 'position': 'OTHER', 'abbreviation': 'BRA'} ---------------- 0
+[2024-05-31T18:04:50.294+0000] {logging_mixin.py:188} INFO - {'id': 3324, 'name': 'Wiesberger, Bernd', 'position': 'OTHER', 'abbreviation': 'WIE'} ---------------- 0
+[2024-05-31T18:04:50.295+0000] {logging_mixin.py:188} INFO - {'id': 86590, 'name': 'Svensson, Jesper', 'position': 'OTHER', 'abbreviation': 'SVE'} ---------------- 0
+[2024-05-31T18:04:50.296+0000] {logging_mixin.py:188} INFO - {'id': 8085, 'name': 'McEvoy, Richard', 'position': 'OTHER', 'abbreviation': 'MCE'} ---------------- 0
+[2024-05-31T18:04:50.298+0000] {logging_mixin.py:188} INFO - {'id': 8092, 'name': 'Fisher, Ross', 'position': 'OTHER', 'abbreviation': 'FIS'} ---------------- 0
+[2024-05-31T18:04:50.299+0000] {logging_mixin.py:188} INFO - {'id': 86605, 'name': 'Hammer, Marc', 'position': 'OTHER', 'abbreviation': 'HAM'} ---------------- 0
+[2024-05-31T18:04:50.300+0000] {logging_mixin.py:188} INFO - {'id': 3586, 'name': 'Waring, Paul', 'position': 'OTHER', 'abbreviation': 'WAR'} ---------------- 0
+[2024-05-31T18:04:50.302+0000] {logging_mixin.py:188} INFO - {'id': 86576, 'name': 'Williams, Robin', 'position': 'OTHER', 'abbreviation': 'WIL'} ---------------- 0
+[2024-05-31T18:04:50.303+0000] {logging_mixin.py:188} INFO - {'id': 86579, 'name': 'Coussaud, Ugo', 'position': 'OTHER', 'abbreviation': 'COU'} ---------------- 0
+[2024-05-31T18:04:50.304+0000] {logging_mixin.py:188} INFO - {'id': 86742, 'name': 'Paul, Yannik', 'position': 'OTHER', 'abbreviation': 'PAU'} ---------------- 0
+[2024-05-31T18:04:50.305+0000] {logging_mixin.py:188} INFO - {'id': 8111, 'name': 'Canter, Laurie', 'position': 'OTHER', 'abbreviation': 'CAN'} ---------------- 0
+[2024-05-31T18:04:50.307+0000] {logging_mixin.py:188} INFO - {'id': 86621, 'name': 'Schutz, Yannick', 'position': 'OTHER', 'abbreviation': 'SCH'} ---------------- 0
+[2024-05-31T18:04:50.308+0000] {logging_mixin.py:188} INFO - {'id': 86743, 'name': 'McKibbin, Tom', 'position': 'OTHER', 'abbreviation': 'MCK'} ---------------- 0
+[2024-05-31T18:04:50.309+0000] {logging_mixin.py:188} INFO - {'id': 86616, 'name': 'De Bruyn, Jannik', 'position': 'OTHER', 'abbreviation': 'DE'} ---------------- 0
+[2024-05-31T18:04:50.311+0000] {logging_mixin.py:188} INFO - {'id': 3333, 'name': 'Willett, Daniel', 'position': 'OTHER', 'abbreviation': 'WIL'} ---------------- 0
+[2024-05-31T18:04:50.312+0000] {logging_mixin.py:188} INFO - {'id': 86589, 'name': 'Blomme, Adam', 'position': 'OTHER', 'abbreviation': 'BLO'} ---------------- 0
+[2024-05-31T18:04:50.313+0000] {logging_mixin.py:188} INFO - {'id': 86567, 'name': 'Prinsloo, Jaco', 'position': 'OTHER', 'abbreviation': 'PRI'} ---------------- 0
+[2024-05-31T18:04:50.314+0000] {logging_mixin.py:188} INFO - {'id': 86543, 'name': 'Kofstad, Espen', 'position': 'OTHER', 'abbreviation': 'KOF'} ---------------- 0
+[2024-05-31T18:04:50.315+0000] {logging_mixin.py:188} INFO - {'id': 86551, 'name': 'Chouhan, Om Prakash', 'position': 'OTHER', 'abbreviation': 'CHO'} ---------------- 0
+[2024-05-31T18:04:50.317+0000] {logging_mixin.py:188} INFO - {'id': 8023, 'name': 'Hillier, Daniel', 'position': 'OTHER', 'abbreviation': 'HIL'} ---------------- 0
+[2024-05-31T18:04:50.318+0000] {logging_mixin.py:188} INFO - {'id': 86609, 'name': 'Ravetto, David', 'position': 'OTHER', 'abbreviation': 'RAV'} ---------------- 0
+[2024-05-31T18:04:50.320+0000] {logging_mixin.py:188} INFO - {'id': 86547, 'name': 'Huizing, Daan', 'position': 'OTHER', 'abbreviation': 'HUI'} ---------------- 0
+[2024-05-31T18:04:50.321+0000] {logging_mixin.py:188} INFO - {'id': 3419, 'name': 'Frittelli, Dylan', 'position': 'OTHER', 'abbreviation': 'FRI'} ---------------- 0
+[2024-05-31T18:04:50.322+0000] {logging_mixin.py:188} INFO - {'id': 86748, 'name': 'Katsuragawa, Yuto', 'position': 'OTHER', 'abbreviation': 'KAT'} ---------------- 0
+[2024-05-31T18:04:50.323+0000] {logging_mixin.py:188} INFO - {'id': 86534, 'name': 'Garcia-Heredia, Alfredo', 'position': 'OTHER', 'abbreviation': 'GAR'} ---------------- 0
+[2024-05-31T18:04:50.325+0000] {logging_mixin.py:188} INFO - {'id': 86540, 'name': 'Strydom, Ockie', 'position': 'OTHER', 'abbreviation': 'STR'} ---------------- 0
+[2024-05-31T18:04:50.326+0000] {logging_mixin.py:188} INFO - {'id': 86535, 'name': 'Figueiredo, Pedro', 'position': 'OTHER', 'abbreviation': 'FIG'} ---------------- 0
+[2024-05-31T18:04:50.327+0000] {logging_mixin.py:188} INFO - {'id': 8120, 'name': 'Stone, Brandon', 'position': 'OTHER', 'abbreviation': 'STO'} ---------------- 0
+[2024-05-31T18:04:50.329+0000] {logging_mixin.py:188} INFO - {'id': 3349, 'name': 'Sullivan, Andy', 'position': 'OTHER', 'abbreviation': 'SUL'} ---------------- 0
+[2024-05-31T18:04:50.330+0000] {logging_mixin.py:188} INFO - {'id': 86614, 'name': 'Berry, Joshua', 'position': 'OTHER', 'abbreviation': 'BER'} ---------------- 0
+[2024-05-31T18:04:50.331+0000] {logging_mixin.py:188} INFO - {'id': 8114, 'name': 'Laporta, Francesco', 'position': 'OTHER', 'abbreviation': 'LAP'} ---------------- 0
+[2024-05-31T18:04:50.333+0000] {logging_mixin.py:188} INFO - {'id': 3596, 'name': 'Pepperell, Eddie', 'position': 'OTHER', 'abbreviation': 'PEP'} ---------------- 0
+[2024-05-31T18:04:50.334+0000] {logging_mixin.py:188} INFO - {'id': 86587, 'name': 'Lacroix, Frederic', 'position': 'OTHER', 'abbreviation': 'LAC'} ---------------- 0
+[2024-05-31T18:04:50.335+0000] {logging_mixin.py:188} INFO - {'id': 86591, 'name': 'Wiebe, Gunner', 'position': 'OTHER', 'abbreviation': 'WIE'} ---------------- 0
+[2024-05-31T18:04:50.336+0000] {logging_mixin.py:188} INFO - {'id': 86604, 'name': 'Besard, Matthis', 'position': 'OTHER', 'abbreviation': 'BES'} ---------------- 0
+[2024-05-31T18:04:50.338+0000] {logging_mixin.py:188} INFO - {'id': 8129, 'name': 'Sharma, Shubhankar', 'position': 'OTHER', 'abbreviation': 'SHA'} ---------------- 0
+[2024-05-31T18:04:50.339+0000] {logging_mixin.py:188} INFO - {'id': 8091, 'name': 'Wilson, Oliver', 'position': 'OTHER', 'abbreviation': 'WIL'} ---------------- 0
+[2024-05-31T18:04:50.341+0000] {logging_mixin.py:188} INFO - {'id': 86568, 'name': 'Johannessen, Kristian Krogh', 'position': 'OTHER', 'abbreviation': 'JOH'} ---------------- 0
+[2024-05-31T18:04:50.342+0000] {logging_mixin.py:188} INFO - {'id': 8098, 'name': 'Larrazabal, Pablo', 'position': 'OTHER', 'abbreviation': 'LAR'} ---------------- 0
+[2024-05-31T18:04:50.344+0000] {logging_mixin.py:188} INFO - {'id': 86538, 'name': 'De Jager, Louis', 'position': 'OTHER', 'abbreviation': 'DE'} ---------------- 0
+[2024-05-31T18:04:50.345+0000] {logging_mixin.py:188} INFO - {'id': 3600, 'name': 'Armitage, Marcus', 'position': 'OTHER', 'abbreviation': 'ARM'} ---------------- 0
+[2024-05-31T18:04:50.346+0000] {logging_mixin.py:188} INFO - {'id': 86593, 'name': 'Jordan, Matthew', 'position': 'OTHER', 'abbreviation': 'JOR'} ---------------- 0
+[2024-05-31T18:04:50.348+0000] {logging_mixin.py:188} INFO - {'id': 86608, 'name': 'Friedrichsen, Sebastian', 'position': 'OTHER', 'abbreviation': 'FRI'} ---------------- 0
+[2024-05-31T18:04:50.349+0000] {logging_mixin.py:188} INFO - {'id': 86566, 'name': 'Van Driel, Darius', 'position': 'OTHER', 'abbreviation': 'VAN'} ---------------- 0
+[2024-05-31T18:04:50.351+0000] {logging_mixin.py:188} INFO - {'id': 3418, 'name': 'Lorenzo-Vera, Michael', 'position': 'OTHER', 'abbreviation': 'LOR'} ---------------- 0
+[2024-05-31T18:04:50.352+0000] {logging_mixin.py:188} INFO - {'id': 8107, 'name': 'Green, Gavin Kyle', 'position': 'OTHER', 'abbreviation': 'GRE'} ---------------- 0
+[2024-05-31T18:04:50.353+0000] {logging_mixin.py:188} INFO - {'id': 86558, 'name': 'Brown, Daniel', 'position': 'OTHER', 'abbreviation': 'BRO'} ---------------- 0
+[2024-05-31T18:04:50.354+0000] {logging_mixin.py:188} INFO - {'id': 86581, 'name': 'Del Rey, Alejandro', 'position': 'OTHER', 'abbreviation': 'DEL'} ---------------- 0
+[2024-05-31T18:04:50.356+0000] {logging_mixin.py:188} INFO - 2
+[2024-05-31T18:04:50.357+0000] {logging_mixin.py:188} INFO - {'id': 86144, 'name': 'Jacquemot E / Tan H', 'position': 'HOME', 'abbreviation': 'JTA'} ---------------- 1
+[2024-05-31T18:04:50.359+0000] {logging_mixin.py:188} INFO - {'id': 30924, 'name': 'Mihalikova T / Noskova L', 'position': 'AWAY', 'abbreviation': 'MNO'} ---------------- 1
+[2024-05-31T18:04:50.361+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/tipico_etl.py", line 184, in load_data_to_redshift
+    df = get_participants(df)
+  File "/opt/airflow/dags/tipico_etl.py", line 16, in get_participants
+    list_in_cell = json.loads(row["participants"])
+  File "/usr/local/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 5115 (char 5114)
+[2024-05-31T18:04:50.389+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=tipico_dag, task_id=load_data_to_redshift, execution_date=20240531T180445, start_date=20240531T180449, end_date=20240531T180450
+[2024-05-31T18:04:50.407+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 588 for task load_data_to_redshift (Expecting ',' delimiter: line 1 column 5115 (char 5114); 38817)
+[2024-05-31T18:04:50.425+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-05-31T18:04:50.443+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

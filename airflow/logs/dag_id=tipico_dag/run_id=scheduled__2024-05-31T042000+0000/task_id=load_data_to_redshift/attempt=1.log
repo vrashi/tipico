@@ -1,0 +1,40 @@
+[2024-05-31T04:30:04.581+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tipico_dag.load_data_to_redshift scheduled__2024-05-31T04:20:00+00:00 [queued]>
+[2024-05-31T04:30:04.592+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tipico_dag.load_data_to_redshift scheduled__2024-05-31T04:20:00+00:00 [queued]>
+[2024-05-31T04:30:04.593+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-05-31T04:30:04.611+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): load_data_to_redshift> on 2024-05-31 04:20:00+00:00
+[2024-05-31T04:30:04.621+0000] {standard_task_runner.py:60} INFO - Started process 26796 to run task
+[2024-05-31T04:30:04.625+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tipico_dag', 'load_data_to_redshift', 'scheduled__2024-05-31T04:20:00+00:00', '--job-id', '305', '--raw', '--subdir', 'DAGS_FOLDER/tipico_dag.py', '--cfg-path', '/tmp/tmp4br1f3y8']
+[2024-05-31T04:30:04.627+0000] {standard_task_runner.py:88} INFO - Job 305: Subtask load_data_to_redshift
+[2024-05-31T04:30:04.696+0000] {task_command.py:423} INFO - Running <TaskInstance: tipico_dag.load_data_to_redshift scheduled__2024-05-31T04:20:00+00:00 [running]> on host a71bb5ce980f
+[2024-05-31T04:30:04.786+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='tipico_dag' AIRFLOW_CTX_TASK_ID='load_data_to_redshift' AIRFLOW_CTX_EXECUTION_DATE='2024-05-31T04:20:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-31T04:20:00+00:00'
+[2024-05-31T04:30:04.835+0000] {logging_mixin.py:188} INFO -    Unnamed: 0  ...                              sportCurrentGameState
+0           0  ...                                                NaN
+1           1  ...  {"updatedAt": "0", "netSportCurrentGameState":...
+2           2  ...  {"updatedAt": "0", "netSportCurrentGameState":...
+3           3  ...  {"updatedAt": "0", "netSportCurrentGameState":...
+4           4  ...  {"updatedAt": "0", "netSportCurrentGameState":...
+
+[5 rows x 22 columns]
+[2024-05-31T04:30:04.852+0000] {base.py:83} INFO - Using connection ID 'redshift_default' for task execution.
+[2024-05-31T04:30:05.705+0000] {logging_mixin.py:188} INFO - {816775}
+[2024-05-31T04:30:06.037+0000] {logging_mixin.py:188} INFO - {815803}
+[2024-05-31T04:30:06.206+0000] {logging_mixin.py:188} INFO - {814989}
+[2024-05-31T04:30:06.357+0000] {logging_mixin.py:188} INFO - {815057}
+[2024-05-31T04:30:06.571+0000] {logging_mixin.py:188} INFO - {815614}
+[2024-05-31T04:30:06.753+0000] {logging_mixin.py:188} INFO - {814942}
+[2024-05-31T04:30:06.903+0000] {logging_mixin.py:188} INFO - {814918}
+[2024-05-31T04:30:07.062+0000] {logging_mixin.py:188} INFO - {815011}
+[2024-05-31T04:30:07.217+0000] {logging_mixin.py:188} INFO - {815058}
+[2024-05-31T04:30:07.384+0000] {logging_mixin.py:188} INFO - {814870}
+[2024-05-31T04:30:07.541+0000] {logging_mixin.py:188} INFO - {814933}
+[2024-05-31T04:30:07.711+0000] {logging_mixin.py:188} INFO - {814872}
+[2024-05-31T04:30:07.863+0000] {logging_mixin.py:188} INFO - {816023}
+[2024-05-31T04:30:08.031+0000] {logging_mixin.py:188} INFO - {816510}
+[2024-05-31T04:30:08.191+0000] {logging_mixin.py:188} INFO - {816776}
+[2024-05-31T04:30:08.358+0000] {logging_mixin.py:188} INFO - {815169}
+[2024-05-31T04:30:08.521+0000] {logging_mixin.py:188} INFO - {816123}
+[2024-05-31T04:30:08.698+0000] {logging_mixin.py:188} INFO - {815066}
+[2024-05-31T04:30:09.674+0000] {python.py:201} INFO - Done. Returned value was: None
+[2024-05-31T04:30:09.689+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=tipico_dag, task_id=load_data_to_redshift, execution_date=20240531T042000, start_date=20240531T043004, end_date=20240531T043009
+[2024-05-31T04:30:09.730+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-05-31T04:30:09.750+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

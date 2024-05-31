@@ -1,0 +1,13 @@
+tipico_dbt: 
+  target: dev 
+  outputs: 
+    dev: 
+      type: redshift 
+      host: manual-dwh-candidatetests.258845600139.us-east-1.redshift-serverless.amazonaws.com
+      user: vrashi_shrivastava 
+      password: JIfp13031_!_dsajdfi329dnmiDAD 
+      port: 5439 
+      dbname: dev 
+      schema: vrashi_shrivastava 
+      threads: 1 
+      keepalives_idle: 300

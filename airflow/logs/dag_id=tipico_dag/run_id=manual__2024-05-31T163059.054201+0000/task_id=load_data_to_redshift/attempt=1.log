@@ -1,0 +1,41 @@
+[2024-05-31T16:31:04.720+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tipico_dag.load_data_to_redshift manual__2024-05-31T16:30:59.054201+00:00 [queued]>
+[2024-05-31T16:31:04.730+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tipico_dag.load_data_to_redshift manual__2024-05-31T16:30:59.054201+00:00 [queued]>
+[2024-05-31T16:31:04.731+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-05-31T16:31:04.747+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): load_data_to_redshift> on 2024-05-31 16:30:59.054201+00:00
+[2024-05-31T16:31:04.754+0000] {standard_task_runner.py:60} INFO - Started process 37277 to run task
+[2024-05-31T16:31:04.757+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tipico_dag', 'load_data_to_redshift', 'manual__2024-05-31T16:30:59.054201+00:00', '--job-id', '540', '--raw', '--subdir', 'DAGS_FOLDER/tipico_dag.py', '--cfg-path', '/tmp/tmpndx_09iy']
+[2024-05-31T16:31:04.759+0000] {standard_task_runner.py:88} INFO - Job 540: Subtask load_data_to_redshift
+[2024-05-31T16:31:04.813+0000] {task_command.py:423} INFO - Running <TaskInstance: tipico_dag.load_data_to_redshift manual__2024-05-31T16:30:59.054201+00:00 [running]> on host a71bb5ce980f
+[2024-05-31T16:31:04.901+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='tipico_dag' AIRFLOW_CTX_TASK_ID='load_data_to_redshift' AIRFLOW_CTX_EXECUTION_DATE='2024-05-31T16:30:59.054201+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-31T16:30:59.054201+00:00'
+[2024-05-31T16:31:04.940+0000] {logging_mixin.py:188} INFO -    Unnamed: 0  ...  eventMetadata
+0           0  ...            NaN
+1           1  ...            NaN
+
+[2 rows x 22 columns]
+[2024-05-31T16:31:04.955+0000] {logging_mixin.py:188} INFO - 2
+[2024-05-31T16:31:04.955+0000] {logging_mixin.py:188} INFO - {'id': 71233, 'name': 'Kato M / Kichenok N', 'position': 'HOME', 'abbreviation': 'KKI'} ---------------- 0
+[2024-05-31T16:31:04.956+0000] {logging_mixin.py:188} INFO - {'id': 39274, 'name': 'Saville D / Tomljanovic A', 'position': 'AWAY', 'abbreviation': 'STO'} ---------------- 0
+[2024-05-31T16:31:04.957+0000] {logging_mixin.py:188} INFO - 2
+[2024-05-31T16:31:04.958+0000] {logging_mixin.py:188} INFO - {'id': 86144, 'name': 'Jacquemot E / Tan H', 'position': 'HOME', 'abbreviation': 'JTA'} ---------------- 1
+[2024-05-31T16:31:04.959+0000] {logging_mixin.py:188} INFO - {'id': 30924, 'name': 'Mihalikova T / Noskova L', 'position': 'AWAY', 'abbreviation': 'MNO'} ---------------- 1
+[2024-05-31T16:31:05.090+0000] {logging_mixin.py:188} INFO -                                                    0                                                  1
+0  {'id': '047fad12-af4d-397a-bb30-e42ba15c96b6',...  {'id': '0fe14f6a-3c54-3be6-a01f-bb25cac87ede',...
+1  {'id': '047fad12-af4d-397a-bb30-e42ba15c96b6',...  {'id': '0fe14f6a-3c54-3be6-a01f-bb25cac87ede',...
+2  {'id': 'bcd947df-7613-36b5-9342-9b1973387538',...  {'id': '5c51d455-41c3-3de3-a408-1c9eb85f67f9',...
+3  {'id': 'bcd947df-7613-36b5-9342-9b1973387538',...  {'id': '5c51d455-41c3-3de3-a408-1c9eb85f67f9',...
+[2024-05-31T16:31:05.101+0000] {base.py:83} INFO - Using connection ID 'redshift_default' for task execution.
+[2024-05-31T16:31:05.805+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/tipico_etl.py", line 238, in load_data_to_redshift
+    for index, row in df.iterrows():
+AttributeError: 'NoneType' object has no attribute 'iterrows'
+[2024-05-31T16:31:05.818+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=tipico_dag, task_id=load_data_to_redshift, execution_date=20240531T163059, start_date=20240531T163104, end_date=20240531T163105
+[2024-05-31T16:31:05.836+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 540 for task load_data_to_redshift ('NoneType' object has no attribute 'iterrows'; 37277)
+[2024-05-31T16:31:05.856+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-05-31T16:31:05.875+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

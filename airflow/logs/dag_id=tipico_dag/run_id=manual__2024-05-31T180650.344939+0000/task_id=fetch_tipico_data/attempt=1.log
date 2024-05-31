@@ -1,0 +1,13 @@
+[2024-05-31T18:06:52.009+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tipico_dag.fetch_tipico_data manual__2024-05-31T18:06:50.344939+00:00 [queued]>
+[2024-05-31T18:06:52.016+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tipico_dag.fetch_tipico_data manual__2024-05-31T18:06:50.344939+00:00 [queued]>
+[2024-05-31T18:06:52.017+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-05-31T18:06:52.034+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): fetch_tipico_data> on 2024-05-31 18:06:50.344939+00:00
+[2024-05-31T18:06:52.041+0000] {standard_task_runner.py:60} INFO - Started process 38855 to run task
+[2024-05-31T18:06:52.045+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tipico_dag', 'fetch_tipico_data', 'manual__2024-05-31T18:06:50.344939+00:00', '--job-id', '590', '--raw', '--subdir', 'DAGS_FOLDER/tipico_dag.py', '--cfg-path', '/tmp/tmpcgixwg3_']
+[2024-05-31T18:06:52.046+0000] {standard_task_runner.py:88} INFO - Job 590: Subtask fetch_tipico_data
+[2024-05-31T18:06:52.092+0000] {task_command.py:423} INFO - Running <TaskInstance: tipico_dag.fetch_tipico_data manual__2024-05-31T18:06:50.344939+00:00 [running]> on host a71bb5ce980f
+[2024-05-31T18:06:52.168+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='tipico_dag' AIRFLOW_CTX_TASK_ID='fetch_tipico_data' AIRFLOW_CTX_EXECUTION_DATE='2024-05-31T18:06:50.344939+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-31T18:06:50.344939+00:00'
+[2024-05-31T18:06:52.742+0000] {python.py:201} INFO - Done. Returned value was: None
+[2024-05-31T18:06:52.753+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=tipico_dag, task_id=fetch_tipico_data, execution_date=20240531T180650, start_date=20240531T180652, end_date=20240531T180652
+[2024-05-31T18:06:52.781+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-05-31T18:06:52.803+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,34 @@
+[2024-05-31T11:05:41.442+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tipico_dag.load_data_to_redshift manual__2024-05-31T11:00:35.327859+00:00 [queued]>
+[2024-05-31T11:05:41.459+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tipico_dag.load_data_to_redshift manual__2024-05-31T11:00:35.327859+00:00 [queued]>
+[2024-05-31T11:05:41.460+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 2
+[2024-05-31T11:05:41.482+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): load_data_to_redshift> on 2024-05-31 11:00:35.327859+00:00
+[2024-05-31T11:05:41.492+0000] {standard_task_runner.py:60} INFO - Started process 32820 to run task
+[2024-05-31T11:05:41.496+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tipico_dag', 'load_data_to_redshift', 'manual__2024-05-31T11:00:35.327859+00:00', '--job-id', '372', '--raw', '--subdir', 'DAGS_FOLDER/tipico_dag.py', '--cfg-path', '/tmp/tmpkw6pnvlu']
+[2024-05-31T11:05:41.499+0000] {standard_task_runner.py:88} INFO - Job 372: Subtask load_data_to_redshift
+[2024-05-31T11:05:41.580+0000] {task_command.py:423} INFO - Running <TaskInstance: tipico_dag.load_data_to_redshift manual__2024-05-31T11:00:35.327859+00:00 [running]> on host a71bb5ce980f
+[2024-05-31T11:05:41.695+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='tipico_dag' AIRFLOW_CTX_TASK_ID='load_data_to_redshift' AIRFLOW_CTX_EXECUTION_DATE='2024-05-31T11:00:35.327859+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-31T11:00:35.327859+00:00'
+[2024-05-31T11:05:41.704+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/tipico_etl.py", line 103, in load_data_to_redshift
+    df = pd.read_csv(filename)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: './data/tipico_data_202405311105.csv'
+[2024-05-31T11:05:41.725+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=tipico_dag, task_id=load_data_to_redshift, execution_date=20240531T110035, start_date=20240531T110541, end_date=20240531T110541
+[2024-05-31T11:05:41.744+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 372 for task load_data_to_redshift ([Errno 2] No such file or directory: './data/tipico_data_202405311105.csv'; 32820)
+[2024-05-31T11:05:41.791+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-05-31T11:05:41.814+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,59 @@
+[2024-05-30T17:50:03.514+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tipico_dag.load_data_to_redshift scheduled__2024-05-30T17:40:00+00:00 [queued]>
+[2024-05-30T17:50:03.523+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tipico_dag.load_data_to_redshift scheduled__2024-05-30T17:40:00+00:00 [queued]>
+[2024-05-30T17:50:03.524+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-05-30T17:50:03.538+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): load_data_to_redshift> on 2024-05-30 17:40:00+00:00
+[2024-05-30T17:50:03.547+0000] {standard_task_runner.py:60} INFO - Started process 17106 to run task
+[2024-05-30T17:50:03.552+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tipico_dag', 'load_data_to_redshift', 'scheduled__2024-05-30T17:40:00+00:00', '--job-id', '237', '--raw', '--subdir', 'DAGS_FOLDER/tipico_dag.py', '--cfg-path', '/tmp/tmptlie6ep6']
+[2024-05-30T17:50:03.554+0000] {standard_task_runner.py:88} INFO - Job 237: Subtask load_data_to_redshift
+[2024-05-30T17:50:03.612+0000] {task_command.py:423} INFO - Running <TaskInstance: tipico_dag.load_data_to_redshift scheduled__2024-05-30T17:40:00+00:00 [running]> on host a71bb5ce980f
+[2024-05-30T17:50:03.721+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='tipico_dag' AIRFLOW_CTX_TASK_ID='load_data_to_redshift' AIRFLOW_CTX_EXECUTION_DATE='2024-05-30T17:40:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-30T17:40:00+00:00'
+[2024-05-30T17:50:03.775+0000] {logging_mixin.py:188} INFO -        id  ...                              sportCurrentGameState
+0  816775  ...                                                NaN
+1  814989  ...  {"updatedAt": "0", "netSportCurrentGameState":...
+2  815803  ...  {"updatedAt": "0", "netSportCurrentGameState":...
+3  815057  ...  {"updatedAt": "0", "netSportCurrentGameState":...
+4  814942  ...  {"updatedAt": "0", "netSportCurrentGameState":...
+
+[5 rows x 21 columns]
+[2024-05-30T17:50:03.784+0000] {base.py:83} INFO - Using connection ID 'redshift_default' for task execution.
+[2024-05-30T17:50:04.580+0000] {logging_mixin.py:188} INFO - {816775}
+[2024-05-30T17:50:04.687+0000] {warnings.py:109} WARNING - /opt/***/dags/tipico_etl.py:40: UserWarning: DB-API extension cursor.connection used
+  cursor.execute(sql, ({row['id']}, {row['startTime']}, {row['messageTime']},{row['sportType']}, {row['matchState']},{row['participants']}, {row['status']},{row['marketCount']}, {row['group']},{row['markets']}, {row['eventType']},{row['updatesCount']}, {row['displayInfo']},{row['score']}, {row['gameClock']},{row['eventReferences']}, {row['eventDetails']},{row['sportCurrentGameState']}, {row['lastModifiedTime']},{row['eventTags']}))
+
+[2024-05-30T17:50:04.689+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/redshift_connector/core.py", line 1612, in make_params
+    params.append(self.py_types[typ])
+KeyError: <class 'set'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/redshift_connector/core.py", line 1615, in make_params
+    params.append(self.inspect_funcs[typ](value))
+KeyError: <class 'set'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/tipico_etl.py", line 40, in load_data_to_redshift
+    cursor.execute(sql, ({row['id']}, {row['startTime']}, {row['messageTime']},{row['sportType']}, {row['matchState']},{row['participants']}, {row['status']},{row['marketCount']}, {row['group']},{row['markets']}, {row['eventType']},{row['updatesCount']}, {row['displayInfo']},{row['score']}, {row['gameClock']},{row['eventReferences']}, {row['eventDetails']},{row['sportCurrentGameState']}, {row['lastModifiedTime']},{row['eventTags']}))
+  File "/home/airflow/.local/lib/python3.8/site-packages/redshift_connector/cursor.py", line 248, in execute
+    raise e
+  File "/home/airflow/.local/lib/python3.8/site-packages/redshift_connector/cursor.py", line 241, in execute
+    self._c.execute(self, operation, args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/redshift_connector/core.py", line 1788, in execute
+    params = self.make_params(args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/redshift_connector/core.py", line 1639, in make_params
+    raise NotSupportedError("type " + str(e) + " not mapped to pg type")
+redshift_connector.error.NotSupportedError: type <class 'set'> not mapped to pg type
+[2024-05-30T17:50:04.706+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=tipico_dag, task_id=load_data_to_redshift, execution_date=20240530T174000, start_date=20240530T175003, end_date=20240530T175004
+[2024-05-30T17:50:04.732+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 237 for task load_data_to_redshift (type <class 'set'> not mapped to pg type; 17106)
+[2024-05-30T17:50:04.773+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-05-30T17:50:04.790+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
