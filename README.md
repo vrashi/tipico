@@ -21,8 +21,9 @@ Run the following target commands to execute the desired SQL workflow operation:
 - `dbt docs generate`
 - `dbt docs serve`
 
-##Data Flow Diagram
+## Data Flow Diagram
+![image](https://github.com/vrashi/tipico/blob/dev/Tipico%20Data%20Flow.jpg)
 
-##Database design
+## Database design
 ![image](https://github.com/vrashi/tipico/blob/dev/Tipico%20Database%20Design.jpg)
 
