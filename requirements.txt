@@ -1,0 +1,12 @@
+# Apache Airflow
+apache-airflow
+
+# dbt Core and dbt Redshift
+dbt-core
+dbt-redshift
+
+# AWS Redshift
+sqlalchemy-redshift
+
+# Pandas
+pandas
