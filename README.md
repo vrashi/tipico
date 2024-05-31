@@ -1,4 +1,4 @@
-# dbt_airflow_redShift_demo
+# Airflow pipeline for Tipico
 
 A project for building, testing, scheduling, and running an ELT data
 pipeline as a SQL workflow using:
